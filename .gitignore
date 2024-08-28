@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 843323b (commit 2)
 # Prerequisites
 *.d
 
@@ -34,9 +30,3 @@
 *.exe
 *.out
 *.app
-<<<<<<< HEAD
-=======
-./helloWorld
->>>>>>> e5dd16a (Primer commit)
-=======
->>>>>>> 843323b (commit 2)
