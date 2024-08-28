@@ -1,16 +1,18 @@
-#include <stdlib.h>
 #include <iostream>
 
-int main(int argc, const char *argv[]) {
+int main() {
     int num1, num2;
 
-    std::cout << "Enter two integers: ";
-    std::cin >> num1 >> num2;
+    std::cout << "Ingresa el primer número: ";
+    std::cin >> num1;
+    std::cout << "Ingresa el segundo número: ";
+    std::cin >> num2;
 
     std::cout << num1 << " + " << num2 << " = " << num1 + num2 << std::endl;
     std::cout << num1 << " * " << num2 << " = " << num1 * num2 << std::endl;
-    std::cout << "Difference of " << num1 << " and " << num2 << " = "
+    std::cout << "Diferencia de " << num1 << " y " << num2 << " = "
               << abs(num1 - num2) << std::endl;
-    std::cout << num1 << " % " << num2 << " = " << num1 % num2 << std::endl;
+    std::cout << num1 << " / " << num2 << " = " << num1 / num2 << std::endl;
 
     return 0;
+}
