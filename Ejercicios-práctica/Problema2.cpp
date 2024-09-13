@@ -1,18 +1,16 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
-    cout << "Ingresa un entero: ";
-    int a=0;
-    cin >> a;
-    for (int x = 0; x < a;x++){
-        if (x % 2 != 0){
-            cout << x;
-            if (x < a-1)
-                cout << ", ";
-        }
-    }   
-    cout <<"\n";
+  int n{0};
+  cout << "Ingresa un número: ";
+  cin >> n;
+  if (n>0)
+    cout <<"\n"<< 1;
+  else
     return 0;
-}   
+  for (int x=2; x < n; x++){ 
+    if (x % 2 != 0)
+      cout <<", "<< x;
+  }
+}
