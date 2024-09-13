@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     cout << "Ingresa un entero: ";
-    int a;
+    int a=0;
     cin >> a;
     for (int x = 0; x < a;x++){
         if (x % 2 != 0){
@@ -13,6 +13,6 @@ int main(){
                 cout << ", ";
         }
     }   
-
+    cout <<"\n";
     return 0;
 }   
