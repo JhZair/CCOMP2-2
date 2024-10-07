@@ -5,12 +5,10 @@ using namespace std;
 int lenString(string a);
 
 int main(){
-    cout << lenString("Hola") << endl;
+    cout << lenString("HoLa") << endl;
 }
 int lenString(string a){
-    char actual{' '};
-    int result = 0;
-    for( ; actual != '\0';result++ )
-        actual = a[result];
-    return result - 1;
+    int i{0};
+    for(; a[i] != '\0';i++){}
+    return i;
 }   
