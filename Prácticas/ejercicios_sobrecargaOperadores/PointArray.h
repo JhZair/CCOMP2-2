@@ -36,7 +36,7 @@ public:
 
     bool operator==(const PointArray &v){
         if(size != v.size){
-            return false
+            return false;
         }
     }
 
